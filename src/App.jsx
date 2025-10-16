@@ -21,7 +21,7 @@ function App() {
               </label>
               <input
                 type="email"
-                className="py-3 ps-4 text-sm rounded-md w-full bg-special-mainBg border border-gray-03 text-gray-01 focus:border-black focus:outline-none focus:ring-0"
+                className="py-3 pl-4 text-sm rounded-md w-full bg-special-mainBg border border-gray-03 text-gray-01 focus:border-black focus:outline-none focus:ring-0"
                 placeholder="hello@example.com"
                 name="email"
                 id="email"
@@ -33,7 +33,7 @@ function App() {
               </label>
               <input
                 type="password"
-                className="py-3 ps-4 text-sm rounded-md w-full bg-special-mainBg border border-gray-03 text-gray-01 focus:border-black focus:outline-none focus:ring-0"
+                className="py-3 pl-4 text-sm rounded-md w-full bg-special-mainBg border border-gray-03 text-gray-01 focus:border-black focus:outline-none focus:ring-0"
                 placeholder="************"
                 name="password"
                 id="password"
@@ -46,7 +46,7 @@ function App() {
                 name="status"
                 id="status"
               />
-              <label htmlFor="status" className="text-sm text-gray-01 ms-6">
+              <label htmlFor="status" className="text-sm text-gray-01 ml-6">
                 Keep me signed in
               </label>
             </div>
@@ -66,7 +66,7 @@ function App() {
         </div>
         {/* teks end */}
         {/* sign in with google start */}
-        <div>
+        <div className="mb-8">
           <button
             className="h-12 flex items-center justify-center rounded-md text-sm w-full bg-gray-05 text-gray-01"
             type="button"
