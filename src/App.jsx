@@ -1,6 +1,6 @@
 import "./App.css";
-import SignInPage from "./pages/signIn";
-import SignUpPage from "./pages/signUp";
+import SignInPage from "./pages/SignIn";
+import SignUpPage from "./pages/SignUp";
 import ErrorPage from "./pages/error";
 import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
 
@@ -22,7 +22,7 @@ function App() {
       errorElement: <ErrorPage />,
     },
     {
-      path: "/Login",
+      path: "/login",
       element: <SignInPage />,
     },
     {
