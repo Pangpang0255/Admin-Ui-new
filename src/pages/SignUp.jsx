@@ -4,7 +4,7 @@ import FormSignUp from "../components/Fragments/FormSignUp";
 
 function SignUp() {
   return (
-    <AuthLayout>
+    <AuthLayout title="Create an account">
       <FormSignUp />
     </AuthLayout>
   )

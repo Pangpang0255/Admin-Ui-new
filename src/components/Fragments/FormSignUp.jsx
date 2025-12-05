@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import LabeledInput from "../Elements/LabeledInput";
 import CheckBox from '../Elements/CheckBox';
 import Button from '../Elements/Button';
+import { Link } from "react-router-dom";
 
 function FormSignUp() {
   const [showPassword, setShowPassword] = useState(false);
@@ -130,9 +131,9 @@ function FormSignUp() {
         {/* sign up with google end */}
         {/* link start */}
         <div className="flex justify-center">
-          <a className="text-sm font-bold">
-            <span className="text-gray-03">Already have an account?</span> <span className="text-primary">Sign In here</span>
-          </a>
+          <Link to="/Login" className="text-sm font-bold">
+            <span className="text-gray-03">Already have an account?</span> <span className="text-primary">Sign In Here</span>
+          </Link>
         </div>
         {/* link end */}
     </>
