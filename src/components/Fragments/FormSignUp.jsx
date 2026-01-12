@@ -81,9 +81,9 @@ function FormSignUp() {
             <Button type="button" variant="secondary">
   <span className="flex items-center justify-center">
 		<svg
-		  class="h-6 w-6 mr-2"
+		  className="h-6 w-6 mr-2"
 		  xmlns="http://www.w3.org/2000/svg"
-		  xmlns:xlink="http://www.w3.org/1999/xlink"
+		  xmlnsXlink="http://www.w3.org/1999/xlink"
 		  width="800px"
 		  height="800px"
 		  viewBox="-0.5 0 48 48"
@@ -94,9 +94,9 @@ function FormSignUp() {
 		  <g
 			id="Icons"
 			stroke="none"
-			stroke-width="1"
+			strokeWidth="1"
 			fill="none"
-			fill-rule="evenodd"
+			fillRule="evenodd"
 		  >
 			<g id="Color-" transform="translate(-401.000000, -860.000000)">
 			  <g id="Google" transform="translate(401.000000, 860.000000)">
