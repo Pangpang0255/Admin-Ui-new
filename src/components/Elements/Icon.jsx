@@ -27,6 +27,14 @@ import VisaSVG from "../../assets/icons/Visa_Logo.svg?react";
 import TargetSVG from "../../assets/icons/target.svg?react";
 import AwardSVG from "../../assets/icons/Award.svg?react";
 
+// Material UI Icons terbaru tanpa perlu diubah ke SVG
+import HomeWorkOutlinedIcon from '@mui/icons-material/HomeWorkOutlined';
+import FoodBankOutlinedIcon from '@mui/icons-material/FoodBankOutlined';
+import EmojiTransportationIcon from '@mui/icons-material/EmojiTransportation';
+import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
+import DashboardOutlinedIcon from '@mui/icons-material/DashboardOutlined';
+import MovieCreationOutlinedIcon from '@mui/icons-material/MovieCreationOutlined';
+
 const createIcon =
   (SVG) =>
   ({ size = 24, color = "currentColor", ...props }) =>
@@ -61,6 +69,14 @@ const Icon = {
   Target: createIcon(TargetSVG),
   Award: createIcon(AwardSVG),
   ArrowUpRight: createIcon(ArrowUpRightSVG),
+  
+  // Material UI Icons
+  HomeWorkOutlined: HomeWorkOutlinedIcon,
+  FoodBankOutlined: FoodBankOutlinedIcon,
+  EmojiTransportation: EmojiTransportationIcon,
+  ShoppingBagOutlined: ShoppingBagOutlinedIcon,
+  DashboardOutlined: DashboardOutlinedIcon,
+  MovieCreationOutlined: MovieCreationOutlinedIcon,
 };
 
 export default Icon;

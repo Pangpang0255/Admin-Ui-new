@@ -38,11 +38,18 @@ function Dashboard() {
       const data = await goalService();
       setGoals(data);
     } catch (err) {
+      // Tampilkan error snackbar
       setSnackbar({ 
         open: true,
-         message: "Gagal mengambil data goals",
+         message:"Gagal mengambil data goals",
           severity: "error"
          });
+      
+      // Tetap set data default agar card goals tampil
+      if (err.defaultData) {
+        setGoals(err.defaultData);
+      }
+      
       if (err.status === 401) {
         logout();
       }
